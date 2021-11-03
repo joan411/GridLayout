@@ -2,75 +2,163 @@
 <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     tools:context=".MainActivity"
-    android:rowCount="10"
-    android:columnCount="10">
+    android:rowCount="4"
+    android:columnCount="4"
+    android:orientation="horizontal"
+    android:layout_gravity="top|center"
+    android:background="@color/black"
+    android:layout_marginRight="30dp"
+    android:layout_marginLeft="30dp">
 
+    <!-- Primera fila -->
     <TextView
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:textSize="10sp"
-        android:gravity="center"
-        android:text="1"
-        android:textColor="@color/white"
-        android:background="#FF0000"
-        android:layout_rowSpan="1"
-        android:layout_columnSpan="2"/>
-    <TextView
-        android:layout_width="40dp"
-        android:layout_height="20dp"
-        android:textSize="10sp"
-        android:gravity="center"
-        android:text="2"
-        android:textColor="@color/white"
-        android:background="#0000FF"
-        android:layout_rowSpan="4"
-        android:layout_columnSpan="2"/>
-    <TextView
-        android:layout_width="20dp"
-        android:layout_height="80dp"
-        android:textSize="10sp"
-        android:gravity="center"
-        android:text="3"
-        android:textColor="@color/white"
-        android:background="#008000"
-        android:layout_rowSpan="5"
-        android:layout_columnSpan="5"/>
-    <TextView
-        android:layout_width="80dp"
-        android:layout_height="40dp"
-        android:textSize="10sp"
-        android:gravity="center"
-        android:text="4"
-        android:textColor="@color/white"
-        android:background="#00FF00"
-        android:layout_rowSpan="2"
-        android:layout_columnSpan="1"/>
-
-    <TextView
-        android:layout_width="60dp"
-        android:layout_height="20dp"
-        android:textSize="10sp"
-        android:gravity="center"
-        android:text="5"
-        android:textColor="@color/white"
-        android:background="@color/purple_500"
-        android:layout_row="2"
-        android:layout_rowSpan="2"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
         android:layout_column="0"
-        android:layout_columnSpan="5"/>
+        android:layout_margin="5dp"
+        android:background="#FFFF00"
+        android:text="Pere" />
 
     <TextView
         android:layout_width="55dp"
-        android:layout_height="20dp"
-        android:textSize="10sp"
-        android:gravity="center"
-        android:text="6"
-        android:textColor="@color/white"
-        android:background="#00FFFF"
-        android:layout_rowSpan="4"
-        android:layout_columnSpan="1"/>
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_margin="5dp"
+        android:background="#FFFF00"
+        android:text="Maria" />
+
+    <TextView
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="2"
+        android:layout_margin="5dp"
+        android:background="#FFFF00"
+        android:text="Joel" />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="3"
+        android:layout_margin="5dp"
+        android:background="#FFFF00"
+        android:text="Arnau" />
+
+    <!-- Segona fila -->
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_margin="5dp"
+        android:background="#FFFF00"
+        android:text="Sílvia" />
+
+    <TextView
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_margin="5dp"
+        android:background="#FFFF00"
+        android:text="Marta" />
+
+    <TextView
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="2"
+        android:layout_margin="5dp"
+        android:background="#FFFF00"
+        android:text="Àlex" />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="3"
+        android:layout_margin="5dp"
+        android:background="#FFFF00"
+        android:text="Rosa" />
+
+    <!-- Tercera fila -->
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_margin="5dp"
+        android:background="#FFFF00"
+        android:text="Pere" />
+
+    <TextView
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:layout_margin="5dp"
+        android:background="#FFFF00"
+        android:text="Andy" />
+
+    <TextView
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="2"
+        android:layout_margin="5dp"
+        android:background="#FFFF00"
+        android:text="Josep Maria" />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="3"
+        android:layout_margin="5dp"
+        android:background="#FFFF00"
+        android:text="Carles" />
+
+    <!-- Quarta fila -->
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:layout_margin="5dp"
+        android:background="#FFFF00"
+        android:text="Maria" />
+
+    <TextView
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:layout_margin="5dp"
+        android:background="#FFFF00"
+        android:text="Angela" />
+
+    <TextView
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="2"
+        android:layout_margin="5dp"
+        android:background="#FFFF00"
+        android:text="Iu" />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="3"
+        android:layout_margin="5dp"
+        android:background="#FFFF00"
+        android:text="Júlia" />
 
 </GridLayout>
